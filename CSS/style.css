@@ -1,15 +1,13 @@
 body {
-	background-color : lightblue;
+	background-color : lightblue; /* le fond sera bleu clair*/
 }
 
 h1 {
+	text-align : center;
+	color : green;
 	font-family : verdana;
 }
 
-h2 {
-	font-family : verdana;
-}
-
-h3 {
+h2, h3 {
 	font-family : verdana;
 }

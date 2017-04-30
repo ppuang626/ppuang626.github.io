@@ -12,11 +12,19 @@ function webservice(url,id){
 }
 
 function homePageLoading() {
-    webservice("https://bitcoin.mubiz.com/info", "info");
-    
-    webservice("https://bitcoin.mubiz.com/blockchaininfo", "blockchaininfo");
-    
-    webservice("https://bitcoin.mubiz.com/peerinfo", "peerinfo");
-    
-    webservice("https://bitcoin.mubiz.com/mininginfo", "mininginfo");
+    url = 'https://bitcoin.mubiz.com/info';
+    id = 'info';
+    webservice(url, id);
+
+    url = 'https://bitcoin.mubiz.com/blockchaininfo';
+    id = 'blockchaininfo';
+    webservice(url, id);
+
+    url = 'https://bitcoin.mubiz.com/mininginfo';
+    id = 'mininginfo';
+    webservice(url, id);
+
+    url = 'https://bitcoin.mubiz.com/peerinfo';
+    id = 'peerinfo';
+    webservice(url, id);
 }

@@ -13,11 +13,11 @@ xmlhttp.send();
 }
 
 function homePageLoading() {
-    webservice('https://bitcoin.mubiz.com/info', 'info');
+    webservice("https://bitcoin.mubiz.com/info", "info");
     
-    webservice('https://bitcoin.mubiz.com/blockchaininfo', 'blockchaininfo');
+    webservice("https://bitcoin.mubiz.com/blockchaininfo", "blockchaininfo");
     
-    webservice('https://bitcoin.mubiz.com/peerinfo', 'peerinfo');
+    webservice("https://bitcoin.mubiz.com/peerinfo", "peerinfo");
     
-    webservice('https://bitcoin.mubiz.com/mininginfo', 'mininginfo');
+    webservice("https://bitcoin.mubiz.com/mininginfo", "mininginfo");
 }
